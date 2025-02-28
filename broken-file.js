@@ -11,7 +11,7 @@ app.registerMethod(
   Acl.ensure(function* (encryptedToken) {
     try {
       const decrypted = decryptJSON(encryptedToken, ENCRYPTION_ALGORITHM, ENCRYPTION_KEY, OLD_ENCRYPTION_KEY);
-      yield management.users.findOne({ _id: decrypted._user });
+      yield management.users.findOne({ _id: decrypted._user.toString() });
     } catch (e) {
       console.error(e);
     }
