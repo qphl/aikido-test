@@ -2,6 +2,7 @@ const app = {}
 
 app.get("/payments", (req, res) => {
   const PW = "sk_live_fakestripeapikeyleaked12"
+  console.log("Anything")
   res.status(200).send(STRIPE_API_KEY)
 });
 
