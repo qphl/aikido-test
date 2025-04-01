@@ -23,17 +23,17 @@ var summaries = new[]
 
 app.MapGet("/weatherforecast/{fileName}", (string fileName) =>
     {
+        var file = File.ReadAllText(fileName);
+        Console.WriteLine(file);
+        
         var forecast = Enumerable.Range(1, 5).Select(index =>
                 new WeatherForecast
                 (
                     DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                     Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
+                    file
                 ))
             .ToArray();
-        
-        var file = File.ReadAllText(fileName);
-        Console.WriteLine(file);
         
         return forecast;
     })
