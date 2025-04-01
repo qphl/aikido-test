@@ -1,0 +1,115 @@
+# Standard VS.NET and ReSharper Foo
+obj
+bin
+*.csproj.user
+*ReSharper*
+*resharper*
+*.suo
+*.cache
+* Thumbs.db
+*.tmp_proj
+.vs
+
+#NuGet packages
+packages
+
+# Prevents ignoring .csproj.resharper files (for namespace exemptions)
+!*.csproj.ReSharper
+
+# For avoiding build artifacts
+Release
+Build
+Debug
+build-output
+deploy-output
+
+# Visual Studio Team System stuff
+*.vssscc
+*.vspscc
+*.vsmdi
+*.testsettings
+
+# Other useful stuff
+*.bak
+*.cache
+*.log
+*.swp
+*.user
+_compareTemp
+_notes
+aspnet_client
+httpd.parse.errors
+*.tmp
+
+# Office Temp Files
+~$*
+
+# If you have a deploy folder
+build
+build/*
+deploy
+deploy/*
+
+# NDepend Project files and output
+ndependout
+*.ndproj
+NDependOut
+
+# Visual Studio Profiling Files
+*.vsp
+
+# Mighty Moose Cache File.
+*mm_cache.bin
+
+# Node and Grunt Files
+min
+node_modules
+.sass-cache
+tmp
+dist
+*.eslintcache
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must ends with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Local elasticsearch installation
+elasticsearch
+
+.fake/*
+
+# Jetbrains rider files
+.idea/
+
+# NCrunch
+
+*.ncrunchsolution.user
+_NCrunch_*
+.NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+nuget.exe
+
+# Octopus CLI files
+*tools/*
+
+# Web module approval test failure files
+*.recieved.png
+
+# System version config file (gets updated by the build script)
+src/WebUI/config/system-version.json
+/logs
+/src/PharmaxoPatientManagement/global.json
+/localstack-volume/cache
