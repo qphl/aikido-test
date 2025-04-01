@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathTraversalTest", "PathTraversalTest\PathTraversalTest.csproj", "{7DFD66C2-9C96-4132-9397-DDBBE7A0E65A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D0734E5A-EE1D-4C42-93CA-89A7CD2DAFB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{7DFD66C2-9C96-4132-9397-DDBBE7A0E65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFD66C2-9C96-4132-9397-DDBBE7A0E65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFD66C2-9C96-4132-9397-DDBBE7A0E65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0734E5A-EE1D-4C42-93CA-89A7CD2DAFB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0734E5A-EE1D-4C42-93CA-89A7CD2DAFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0734E5A-EE1D-4C42-93CA-89A7CD2DAFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0734E5A-EE1D-4C42-93CA-89A7CD2DAFB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
